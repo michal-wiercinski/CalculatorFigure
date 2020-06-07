@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CalculatorFigure.Service.SquareService">
+    <Position X="5.25" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\SquareService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Service.CircleService">
+    <Position X="7.5" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Service\CircleService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Service.CubeService">
+    <Position X="0.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\CubeService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Service.CylinderService">
+    <Position X="3.25" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAgBAAAAAAAA=</HashCode>
+      <FileName>Service\CylinderService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Figure.Circle">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figure\2D\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Figure.Square">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Figure\2D\Square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Figure.Cube">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAAAA=</HashCode>
+      <FileName>Figure\3D\Cube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Figure.Cylinder" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABACAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figure\3D\Cylinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Figure.Figure">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAE=</HashCode>
+      <FileName>Figure\Figure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Figure.Figure2D">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Figure\Figure2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Figure.Figure3D">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACAAAA=</HashCode>
+      <FileName>Figure\Figure3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorFigure.Service.interfaces.Figure2DService&lt;T&gt;">
+    <Position X="6.5" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Service\interfaces\2D\Figure2DService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CalculatorFigure.Service.interfaces._3D.Figure3DService&lt;T&gt;">
+    <Position X="2" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>Service\interfaces\3D\Figure3DService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CalculatorFigure.Service.interfaces.IFigure2DService">
+    <Position X="12.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\interfaces\2D\IFigure2DService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CalculatorFigure.Service.interfaces.IFigure3DService">
+    <Position X="14.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\interfaces\3D\IFigure3DService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CalculatorFigure.Service.interfaces.IFigureService&lt;T&gt;">
+    <Position X="9.75" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Service\interfaces\IFigureService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
